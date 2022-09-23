@@ -294,8 +294,7 @@ def summary():
     st.subheader(
         """
         Focus:
-        We want to know who are not financially included.
-        What can we do to improve their situation?
+        This is a test module.
         """
     )
 
