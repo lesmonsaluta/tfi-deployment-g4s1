@@ -336,10 +336,10 @@ def summary():
     st.subheader(
         """
         General Recommendations
-        4P’s is a great opportunity to improve financial literacy of poorer and lower-income households and should be integrated in family development sessions.
-        Continue BSP’s support for the growing and dynamic microfinance industry that has lower threshold for lending, and lower entry of barrier for poorer and lower-income households who wants access to financial institution with lower requirements compared to traditional banks.
-        Increased digital connectivity makes financial services more accessible. Intensify coordination of BSP with DICT and fintech companies to make it convenient for an individual to register and manage an account.
-        Trust towards banks may be low. Collect customer experience data (using incentives) to craft data-driven policies that help improve customer satisfaction, and therefore, confidence and trust in banks.
+        1. 4P’s is a great opportunity to improve financial literacy of poorer and lower-income households and should be integrated in family development sessions.
+        2. Continue BSP’s support for the growing and dynamic microfinance industry that has lower threshold for lending, and lower entry of barrier for poorer and lower-income households who wants access to financial institution with lower requirements compared to traditional banks.
+        3. Increased digital connectivity makes financial services more accessible. Intensify coordination of BSP with DICT and fintech companies to make it convenient for an individual to register and manage an account.
+        4. Trust towards banks may be low. Collect customer experience data (using incentives) to craft data-driven policies that help improve customer satisfaction, and therefore, confidence and trust in banks.
         """
     )
 
