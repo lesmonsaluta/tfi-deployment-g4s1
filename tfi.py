@@ -50,12 +50,12 @@ def fin_beh():
     # Load data
     data = load_data()
 
-    '''
+  
     # Display data
-    st.markdown("**The Data**")
-    st.dataframe(data)
-    st.markdown("Source: Global Findex 2017 from World Bank.")
-    '''
+    # st.markdown("**The Data**")
+    # st.dataframe(data)
+    # st.markdown("Source: Global Findex 2017 from World Bank.")
+    
 
 
 def demographics():
