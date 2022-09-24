@@ -322,8 +322,8 @@ def summary():
         """
         Financially Included (Banked)
         1. Classified into regular people, medically challenged, and business people
-        Have underutilized bank accounts
-        2. Prefer traditional and informal methods of saving, borrowing, and paying bills
+        2. Have underutilized bank accounts
+        3. Prefer traditional and informal methods of saving, borrowing, and paying bills
         """
     )
     st.subheader(
