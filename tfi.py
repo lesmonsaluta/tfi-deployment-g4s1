@@ -20,6 +20,8 @@ def load_data():
 
 def fin_beh():
     # Write the title and the subheader
+    st.image("pexels-pixabay-259200.jpg")
+  
     st.title(
         "Introduction to Financial Inclusion"
     )
