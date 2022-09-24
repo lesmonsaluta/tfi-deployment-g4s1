@@ -21,24 +21,18 @@ def load_data():
 def what_is_fe():
     # Write the title and the subheader
     st.title(
-        "Financial Behaviors and Account Ownership of Filipinos"
+        "Towards Financial Inclusion"
     )
     st.subheader(
         """
-        Scope:
-        Filipino respondents interviewed for Global Findex Survey 2017.
-        """
-    )
-    st.subheader(
-        """
-        Focus:
-        We want to know who are not financially included.
-        What can we do to improve their situation?
+        Scope/Focus:
+        1. FI metric we chose to focus on is the access to account in a financial institution (account_fin).
+        2. Goal is to find out the profile of Filipinos who don’t have accounts and to find reasons as to why they don’t have accounts in a financial institution.
         """
     )
 
     # Load photo
-    # st.image("Sasa Ty-m Lab1.jpg")
+    st.image("Sasa Ty-m Lab1.jpg")
 
     # Load data
     data = load_data()
@@ -51,8 +45,8 @@ def what_is_fe():
 
 def demographics():
     # Write the title
-    st.title(   
-        "Demographics of Filipinos' Financial Inclusion"
+    st.title(
+        "Proportion of respondents with account and without account per income quintile"
     )
 
     # Load data
@@ -276,35 +270,23 @@ def fin_ex_fil():
 def fin_in_fil():
     # Write the title
     st.title(
-        "Financially Included Filipinos"
-    )
-    st.subheader(
-        """
-        Focus:
-        This is a test module.
-        """
+        "What We Can Do"
     )
 
 
 def summary():
     # Write the title
     st.title(
-        "Summary"
-    )
-    st.subheader(
-        """
-        Focus:
-        Say I want to change this.
-        """
+        "The Team"
     )
 
 
 list_of_pages = [
-    "What is Financial Exclusion",
-    "Demographics",
-    "Financially Excluded  Filipinos",
-    "Financially Included Filipinos",
-    "Summary"
+    "Towards Financial Inclusion",
+    "Income quartiles and accounts",
+    "Educ and unemployment",
+    "Reasons for unbanking",
+    "Digging Deeper: Reasons"
 ]
 
 st.sidebar.title(':scroll: Main Pages')
@@ -324,3 +306,4 @@ elif selection == "Financially Included  Filipinos":
 
 elif selection == "Summary":
     summary()
+
