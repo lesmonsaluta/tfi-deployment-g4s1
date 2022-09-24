@@ -282,7 +282,7 @@ def fin_in_fil():
 def emp():
     #Write the title
     st.title(
-        "Bright Spot"
+        "On the Bright Side"
     )
 
 
@@ -298,7 +298,7 @@ list_of_pages = [
     "Demographics",
     "Financially Excluded Filipinos",
     "Financially Included  Filipinos",
-    "Bright Spot",
+    "On the Bright Side",
     "Summary"
 ]
 
@@ -317,7 +317,7 @@ elif selection == "Financially Excluded Filipinos":
 elif selection == "Financially Included  Filipinos":
     fin_in_fil()
 
-elif selection == "Bright Spot":
+elif selection == "On the Bright Side":
     emp()
 
 elif selection == "Summary":
