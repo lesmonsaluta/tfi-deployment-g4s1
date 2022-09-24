@@ -80,17 +80,15 @@ def fin_beh():
     st.markdown("  ")
     st.markdown("  ")
     #Partition the page into 4
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2 = st.columns(2)
 
     #Insert image on left side
     col1.image("3outof10.png")
 
     #Insert header on right side
-    col2.header("Filipinos have accounts in financial institutions")
 
-    col3.image("6outof10.png")
+    col2.image("6outof10.png")
 
-    col4.header("Less than the world average")
 
 def demographics():
     # Write the title
