@@ -302,7 +302,21 @@ def summary():
     st.title(
         "Summary"
     )
-  
+    st.subheader(
+        """
+        Financially Excluded (Unbanked)
+        Poorer and lower income households, respondents outside the workforce and those with lower educational attainment 
+        Classified into the financially stable and financially insecure
+        Financial and infrastructural reasons are holding them back from owning accounts
+        """
+    st.subheader(
+        """
+        Recommendations
+        Mitigate financial and infrastructural barriers that will make it easier for those without accounts to create accounts.
+        Promote alternative financial institutions that are more accessible.
+
+        """
+    )
     st.subheader(
         """
         Financially Included (Banked)
