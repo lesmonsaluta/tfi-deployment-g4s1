@@ -44,15 +44,18 @@ def fin_beh():
     )
 
     # Load photo
-    # st.image("Sasa Ty-m Lab1.jpg")
+    st.image("3outof10.png")
+    st.image("6outof10.png")
 
     # Load data
     data = load_data()
 
+  
     # Display data
-    st.markdown("**The Data**")
-    st.dataframe(data)
-    st.markdown("Source: Global Findex 2017 from World Bank.")
+    # st.markdown("**The Data**")
+    # st.dataframe(data)
+    # st.markdown("Source: Global Findex 2017 from World Bank.")
+    
 
 
 def demographics():
