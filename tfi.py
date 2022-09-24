@@ -73,11 +73,6 @@ def fin_beh():
 
     philippine_data = load_data()
 
-    # Display data
-    st.markdown("**The Data**")
-    st.dataframe(philippine_data)
-    st.markdown("Source: Global Findex 2017 from World Bank.")
-
     st.markdown("  ")
     st.markdown("  ")
     st.markdown("  ")
