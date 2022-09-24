@@ -302,6 +302,22 @@ def summary():
     st.title(
         "Summary"
     )
+  
+    st.subheader(
+        """
+        Financially Included (Banked)
+        Classified into regular people, medically challenged, and business people
+        Have underutilized bank accounts
+        Prefer traditional and informal methods of saving, borrowing, and paying bills
+        """
+    )
+    st.subheader(
+        """
+        Recommendations
+        Increase awareness of different ways to borrow, save, etc, 
+        Increase trust and confidence of the users.
+        """
+    )
 
 
 list_of_pages = [
