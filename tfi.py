@@ -21,7 +21,7 @@ def load_data():
 def fin_beh():
     # Write the title and the subheader
     st.title(
-        "Financial Behaviors and Account Ownership of Filipinos"
+        "Introduction to Financial Inclusion"
     )
     st.subheader(
         """
@@ -52,7 +52,7 @@ def fin_beh():
 def demographics():
     # Write the title
     st.title(
-        "Proportion of respondents with account and without account per income quintile"
+        "Demographics of Filipino's Financial Inclusion"
     )
 
     # Load data
@@ -140,7 +140,7 @@ def demographics():
 def fin_ex_fil():
     # Write the title and the subheader
     st.title(
-        "Education, Employment, and Account Ownership"
+        "Financially Excluded  Filipinos"
     )
     st.markdown(
         "Those with lower educational attainment, as well as the unemployed have  a lower proportion of having an account. In relation to the previous slide, bigger proportions of these groups to belong to lower income quartiles."
@@ -276,14 +276,20 @@ def fin_ex_fil():
 def fin_in_fil():
     # Write the title
     st.title(
-        "What We Can Do"
+        "Financially Included  Filipinos"
+    )
+
+def emp():
+    #Write the title
+    st.title(
+        "Bright Spot"
     )
 
 
 def summary():
     # Write the title
     st.title(
-        "The Team"
+        "Summary"
     )
 
 
@@ -292,6 +298,7 @@ list_of_pages = [
     "Demographics",
     "Financially Excluded Filipinos",
     "Financially Included  Filipinos",
+    "Bright Spot",
     "Summary"
 ]
 
@@ -309,6 +316,9 @@ elif selection == "Financially Excluded Filipinos":
 
 elif selection == "Financially Included  Filipinos":
     fin_in_fil()
+
+elif selection == "Bright Spot":
+    emp()
 
 elif selection == "Summary":
     summary()
