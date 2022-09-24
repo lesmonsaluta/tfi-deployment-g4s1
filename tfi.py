@@ -313,8 +313,8 @@ def summary():
     st.subheader(
         """
         Recommendations
-        Mitigate financial and infrastructural barriers that will make it easier for those without accounts to create accounts.
-        Promote alternative financial institutions that are more accessible.
+        1. Mitigate financial and infrastructural barriers that will make it easier for those without accounts to create accounts.
+        2. Promote alternative financial institutions that are more accessible.
 
         """
     )
@@ -329,8 +329,8 @@ def summary():
     st.subheader(
         """
         Recommendations
-        Increase awareness of different ways to borrow, save, etc, 
-        Increase trust and confidence of the users.
+        1. Increase awareness of different ways to borrow, save, etc, 
+        2. Increase trust and confidence of the users.
         """
     )
     st.subheader(
