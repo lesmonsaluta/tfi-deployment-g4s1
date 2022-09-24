@@ -293,7 +293,7 @@ def fin_ex_fil():
         "FINANCIALLY EXCLUDED FILIPINOS"
     )
 
-    st.image("wo_acc")
+    st.image("wo_acc.png")
 
     st.markdown(" ")
     st.markdown(" ")
@@ -430,7 +430,7 @@ def fin_in_fil():
         "FINANCIALLY INCLUDED FILIPINOS"
     )
 
-    st.image("w_acc")
+    st.image("w_acc.png")
 
     #load the data
     data = load_data()
