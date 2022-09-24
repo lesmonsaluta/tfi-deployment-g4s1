@@ -21,18 +21,24 @@ def load_data():
 def what_is_fe():
     # Write the title and the subheader
     st.title(
-        "Towards Financial Inclusion"
+        "Financial Behaviors and Account Ownership of Filipinos"
     )
     st.subheader(
         """
-        Scope/Focus:
-        1. FI metric we chose to focus on is the access to account in a financial institution (account_fin).
-        2. Goal is to find out the profile of Filipinos who don’t have accounts and to find reasons as to why they don’t have accounts in a financial institution.
+        Scope:
+        Filipino respondents interviewed for Global Findex Survey 2017.
+        """
+    )
+    st.subheader(
+        """
+        Focus:
+        We want to know who are not financially included.
+        What can we do to improve their situation?
         """
     )
 
     # Load photo
-    st.image("Sasa Ty-m Lab1.jpg")
+    # st.image("Sasa Ty-m Lab1.jpg")
 
     # Load data
     data = load_data()
