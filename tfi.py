@@ -282,11 +282,11 @@ def summary():
 
 
 list_of_pages = [
-    "Towards Financial Inclusion",
-    "Income quartiles and accounts",
-    "Educ and unemployment",
-    "Reasons for unbanking",
-    "Digging Deeper: Reasons"
+    "What is Financial Exclusion",
+    "Demographics",
+    "Financially Excluded Filipinos",
+    "Financially Included  Filipinos",
+    "Summary"
 ]
 
 st.sidebar.title(':scroll: Main Pages')
