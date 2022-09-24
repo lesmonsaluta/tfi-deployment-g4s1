@@ -309,6 +309,7 @@ def summary():
         Classified into the financially stable and financially insecure
         Financial and infrastructural reasons are holding them back from owning accounts
         """
+    )
     st.subheader(
         """
         Recommendations
