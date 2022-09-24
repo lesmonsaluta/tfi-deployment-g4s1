@@ -18,7 +18,7 @@ def load_data():
     return philippine_data
     
 
-def what_is_fe():
+def fin_beh():
     # Write the title and the subheader
     st.title(
         "Financial Behaviors and Account Ownership of Filipinos"
@@ -288,7 +288,7 @@ def summary():
 
 
 list_of_pages = [
-    "What is Financial Exclusion",
+    "Introduction to Financial Inclusion",
     "Demographics",
     "Financially Excluded Filipinos",
     "Financially Included  Filipinos",
@@ -298,8 +298,8 @@ list_of_pages = [
 st.sidebar.title(':scroll: Main Pages')
 selection = st.sidebar.radio("Go to: ", list_of_pages)
 
-if selection == "What is Financial Exclusion":
-    what_is_fe()
+if selection == "Introduction to Financial Inclusion":
+    fin_beh()
 
 elif selection == "Demographics":
     demographics()
