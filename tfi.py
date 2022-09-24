@@ -764,7 +764,46 @@ def emp():
     st.title(
         "On the Bright Side"
     )
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    subheader = '<p style="font-family:Arial; font-size: 35px; text-align: center;"><b>Bright Spot</b> - Accounts used for receiving wages</p>'
+    st.markdown(subheader, unsafe_allow_html=True)
 
+    st.markdown(" ")
+    col1, col2 = st.columns((1,2))
+    caption = '<p style="font-family:Arial; font-size: 24px; text-align: right; margin: 0; padding-top:0;">On a more positive note, we found that majority of banked respondents</p><p style="font-family:Arial; font-size: 24px; color:#f46524; text-align: right; margin: 0; padding-top:0;"><b>use their accounts to receive wages.</b></p><p style="font-family:Arial; font-size: 24px; text-align: right; margin: 0; padding-top:0;">We investigated further on the relationship of having a bank account and employment and found something interesting.</p>'
+    col1.markdown(caption, unsafe_allow_html=True) 
+    col2.image("image6.jpg")
+
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")  
+    st.markdown(" ")
+    st.markdown(" ")    
+    output = '<p style="font-family:Arial; font-size: 30px; color:#f46524; text-align: center; margin: 0; padding-top:0;"><b>9 out of 10 banked and employed filipino respondents</b></p><p style="font-family:Arial; font-size: 30px; text-align: center; margin: 0; padding-top:0;"> opened their first bank accounts to receive wages from their employer</p>'
+    st.markdown(output, unsafe_allow_html=True) 
+
+    st.markdown(" ")
+    st.markdown(" ")  
+    st.markdown(" ")
+    st.markdown(" ") 
+    st.markdown(" ")
+    st.markdown(" ")  
+    st.markdown(" ")
+    st.markdown(" ") 
+    subheader = '<p style="font-family:Arial; font-size: 35px; text-align: center;"><b>INSIGHTS AND RECOMMENDATIONS</b></p>'
+    st.markdown(subheader, unsafe_allow_html=True)
+
+    main = '<p style="font-family:Arial; font-size: 24px; color:#f46524; text-align: left; margin: 0; padding-top:0;"><b>BANKED AND EMPLOYED RESPONDENTS OPENED THEIR FIRST BANK ACCOUNT TO RECEIVE WAGES</b></p>'
+    st.markdown(main, unsafe_allow_html=True)
+
+    st.markdown(" ")
+    insight = '<p style="font-family:Arial; font-size: 20px; text-align: left;">1. Employment of Filipinos will tremendously help with rate of financial inclusion. This will help <u>alleviate the financial burden</u>, which is the main reasons why people don’t open an account.</p>'
+    st.markdown(insight, unsafe_allow_html=True)
+    insight = '<p style="font-family:Arial; font-size: 20px; text-align: left;">2. The government should focus on creating programs that will encourage and support the unemployed to find jobs. This includes <u>building upskilling programs, establishing more vocational schools, and partnering with companies that are in need of the skill set these training programs can provide.</u></p>'
+    st.markdown(insight, unsafe_allow_html=True)
+            
 def summary():
     # Write the title
     st.title(
