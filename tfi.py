@@ -305,9 +305,9 @@ def summary():
     st.subheader(
         """
         Financially Excluded (Unbanked)
-        Poorer and lower income households, respondents outside the workforce and those with lower educational attainment 
-        Classified into the financially stable and financially insecure
-        Financial and infrastructural reasons are holding them back from owning accounts
+        1. Poorer and lower income households, respondents outside the workforce and those with lower educational attainment 
+        2. Classified into the financially stable and financially insecure
+        3. Financial and infrastructural reasons are holding them back from owning accounts
         """
     )
     st.subheader(
@@ -321,9 +321,9 @@ def summary():
     st.subheader(
         """
         Financially Included (Banked)
-        Classified into regular people, medically challenged, and business people
+        1. Classified into regular people, medically challenged, and business people
         Have underutilized bank accounts
-        Prefer traditional and informal methods of saving, borrowing, and paying bills
+        2. Prefer traditional and informal methods of saving, borrowing, and paying bills
         """
     )
     st.subheader(
