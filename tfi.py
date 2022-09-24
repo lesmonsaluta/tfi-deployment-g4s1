@@ -36,6 +36,12 @@ def fin_beh():
         What can we do to improve their situation?
         """
     )
+    st.subheader(
+        """
+        What is financial inclusion?
+        Individuals and businesses that have access to useful and affordable financial products that meets their needs delivered in a responsible and sustainable way. - World Bank
+        """
+    )
 
     # Load photo
     # st.image("Sasa Ty-m Lab1.jpg")
