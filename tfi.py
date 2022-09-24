@@ -36,7 +36,7 @@ def fin_beh():
     # Write the title and the subheader
     st.title("FINANCIAL BEHAVIORS AND ACCOUNT OWNERSHIP OF FILIPINOS")
 
-    st.image("pexels-pixabay-259200.jpg", width = "200")
+    st.image("pexels-pixabay-259200.jpg", width = 200)
 
     st.markdown("  ")
     st.markdown("  ")
