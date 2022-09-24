@@ -83,12 +83,12 @@ def fin_beh():
     col1, col2, col3, col4 = st.columns(4)
 
     #Insert image on left side
-    col1.image("image1.jpg")
+    col1.image("3outof10.png")
 
     #Insert header on right side
     col2.header("Filipinos have accounts in financial institutions")
 
-    col3.image("image2.jpg")
+    col3.image("6outof10.png")
 
     col4.header("Less than the world average")
 
