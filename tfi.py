@@ -50,7 +50,7 @@ def fin_beh():
     # Load data
     data = load_data()
 
-   '''
+    '''
     # Display data
     st.markdown("**The Data**")
     st.dataframe(data)
