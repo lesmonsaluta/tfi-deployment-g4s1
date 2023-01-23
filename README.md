@@ -1,4 +1,3 @@
-# tfi-deployment-g4s1
 # FINANCIAL BEHAVIORS AND ACCOUNT OWNERSHIP OF FILIPINOS
 
 This is the repository for the files for the Streamlit Deployment of DSF Cohort 10 Sprint 1 Group 1. You can view the app through this [link](https://lesmonsaluta-tfi-deployment-g4s1-tfi-5ap3tv.streamlit.app/).
